@@ -1,0 +1,35 @@
+.selected {
+    background-color: #007bff;
+    color: white;
+}
+  
+.word {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+  
+  /* Add any additional styles for the game board and words here */
+  
+.highlighted {
+  background-color: rgb(27, 160, 12);
+  pointer-events: none; /* Disable clicking */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
