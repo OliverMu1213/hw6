@@ -16,15 +16,15 @@
 }
 
 .selected {
-  background-color: #007bff; /* Bootstrap primary color */
+  background-color: #007bff;
   color: white;
 }
   
-  /* Add any additional styles for the game board and words here */
+
   
 .highlighted {
   background-color: rgb(27, 160, 12);
-  pointer-events: none; /* Disable clicking */
+  pointer-events: none;
 }
 
 .footer {
