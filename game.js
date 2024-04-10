@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             submitButton.addEventListener('click', () => {
             
                 if (selectedWords.size === 4) {
+                    console.log(selectedWords)
                     const guessResult = evaluateGuess(selectedWords, guess_category);
                     console.log(guessResult)
                     if (guessResult.isAllCorrect) {
@@ -82,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     selectedWords.clear();
                     updateStatisticsDisplay();
                 }else{
+                    
                     alert('Please select at least 4 words');
                 }
                 
